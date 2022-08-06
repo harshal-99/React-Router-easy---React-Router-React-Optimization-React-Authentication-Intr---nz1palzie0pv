@@ -5,8 +5,8 @@ export const NavBar = () => {
 	return (
 		<nav>
 			<ul>
-				<Link to="/" className="index-link">Index</Link> {" | "}
-				<Link to="/home" className="home-link">Home</Link>
+				<li><Link to="/" className="index-link">Index</Link> {" | "}</li>
+				<li><Link to="/home" className="home-link">Home</Link></li>
 			</ul>
 		</nav>
 	)
